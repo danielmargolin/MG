@@ -1,0 +1,31 @@
+#container {
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.card-container {
+    flex: 0 0 200px;
+    height: 300px;
+    overflow: hidden;
+    margin: 10px;
+    background-image: url('https://i.seadn.io/gae/Qx2C6wKIgHl8D_b13Txs_zupz35HAWAM8YPYwGmJRdOb2QpCC7-ojoQv6KDO4xbnUMvMWzABvLJl8ZPnUvaDCQgCh4kAqLfG-LNn?auto=format&dpr=1&w=1000');
+    background-size: cover;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.card-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.disabled {
+    pointer-events: none;
+}
